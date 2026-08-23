@@ -1,7 +1,7 @@
 // Usage
 //
-//	slog.SetDefault(slog.New(&CustomHandler{level: slog.LevelDebug}))
-//
+// logger := slog.New(&pkg.CustomHandler{Level: slog.LevelDebug})
+// slog.SetDefault(logger)
 // Output : 2026/06/06 16:42:42 DEBUG | Message | main()
 package main
 
